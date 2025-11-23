@@ -2,7 +2,7 @@ const btn = document.getElementById("revealBtn");
 const noteDiv = document.getElementById("note");
 
 function getTodayIndex() {
-  const start = new Date('2025-11-24'); // or whatever start date
+  const start = new Date('2025-11-23'); // or whatever start date
   const today = new Date();
   const diff = Math.floor((today - start) / (1000 * 60 * 60 * 24));
   return diff;
@@ -37,3 +37,4 @@ function revealNote() {
 }
 
 btn.addEventListener("click", revealNote);
+
