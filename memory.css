@@ -1,0 +1,115 @@
+.note-card {
+  margin: 10px auto;
+  padding: 15px;
+  background: #fff0f5;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 500px;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #f18bc3;
+  background: #b1e7f0 url('Binding&keeping 13 - Copy.jpeg') no-repeat center scroll;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0,0,0,0.6); /* fallback dark tint */
+  background-blend-mode: overlay;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+  background: rgba(18, 18, 18, 0.85); /* soft black with opacity */
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(255,255,255,0.04);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #ff8fab;
+  color: #060606;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s background, 0.2s transform;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+}
+
+button:hover {
+  background: #ff5e87;
+  transform: scale(1.05);
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 1em 0;
+  height: 220px; /* Ensure enough height for centering */
+}
+
+.slides {
+  width: 320px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.note-card {
+  min-width: 100%;
+  max-width: 100%;
+  transition: transform 0.5s;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 1.5em;
+  background: #f076b1;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #222;
+}
+
+.slide-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff8fab;
+  color: #121212;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background 0.3s;
+  position: relative;
+  top: 0;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+}
+.slide-btn:hover {
+  background: #ff5e87;
+}
+
+.opened-date {
+  font-size: 0.95em;
+  color: #181717;
+  margin-bottom: 0.5em;
+}
